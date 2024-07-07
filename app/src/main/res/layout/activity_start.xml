@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/skybackground"
+    tools:context=".StartActivity">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/start_button"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Buttons"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="180dp"
+            android:backgroundTint="@color/lightBlue400"
+            android:textColor="@color/black"
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/start_sensor"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Sensors"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="240dp"
+            android:backgroundTint="@color/lightBlue400"
+            android:textColor="@color/black"
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/top_ten_button"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Top Ten"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="120dp"
+            android:backgroundTint="@color/lightBlue400"
+            android:textColor="@color/black"
+            />
+
+
+
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="20dp"
+            android:text="Choose how you want to play"
+            tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/start_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:textSize="47dp"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:text="FLY LIKE THE WIND"
+        tools:ignore="MissingConstraints" />
+
+
+
+</RelativeLayout>
