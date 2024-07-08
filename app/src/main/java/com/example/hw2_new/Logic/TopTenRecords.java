@@ -31,7 +31,7 @@ public class TopTenRecords {
     }
 
     public void sortRecord(){
-    Collections.sort(records);
+        Collections.sort(records);
     }
 
     public void addItem(String score , double latitude , double longitude){

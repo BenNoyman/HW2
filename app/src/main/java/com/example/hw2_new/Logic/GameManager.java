@@ -1,8 +1,4 @@
 package com.example.hw2_new.Logic;
-
-
-import android.content.Context;
-
 public class GameManager {
 
     private final int TOTAL_ROWS = 6;
@@ -49,7 +45,6 @@ public class GameManager {
                 currentObstacles[currentObstacles.length - 1][i] = 0;
             }
         }
-
         for (int i = currentObstacles.length - 1; i > 0; i--) {
             for (int j = 0; j < currentObstacles[0].length; j++) {
                 if (currentObstacles[i - 1][j] == 1) {
